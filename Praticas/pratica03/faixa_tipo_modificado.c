@@ -10,7 +10,8 @@ int main(){
     printf("O tipo 'unsigned long int' aceita valores entre %i e %lu.\n", 0, ULONG_MAX);
     printf("O tipo 'long long int' aceita valores entre %lli e %lli.\n", LLONG_MIN, LLONG_MAX);
     printf("O tipo 'unsigned long long int' aceita valores entre %i e %lu.\n", 0, ULLONG_MAX);
-
+    printf("O tipo 'double' aceita valores entre %LE e %Le.\n", LDBL_MIN, LDBL_MAX);
+    
 
     return 0;
 }
